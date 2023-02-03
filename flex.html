@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       nav{
+        background: rgb(97, 92, 92);
+       }
+       ul{
+        display: flex;
+        flex-wrap: wrap;
+       }
+       ul li{
+        padding: 15px;
+        list-style: none;
+       }
+       .sub-menu3{
+          
+            /* display: none; */
+            color: white;
+         width: 180px;
+            height: 180px;
+            background-color: rgb(10, 85, 85);
+            position: relative;
+            left: 17em;
+            bottom: 1em;
+       }
+       .list{
+        padding: 10px;
+        color: white;
+       }
+         ul  li :hover  {
+        /* display: none; */
+        font-size: large;
+     
+       }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>menu</li>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+           
+        </ul>
+       
+    </nav>
+    <div class="sub-menu3">
+        <div class="list">Profile</div>
+        <div class="list">Edit</div>
+        <div class="list">Login</div>
+        <div class="list">Logout</div>
+    </div>
+</body>
+</html>
